@@ -80,6 +80,7 @@ appanage_reversion_effect = { #handles the special vassal types which "revert to
 			male_line_extinct_trigger = yes
 			NOT = { has_country_modifier = bur_succession_cooldown }
 			NOT = { has_country_flag = burgundian_succession_crisis }
+			NOT = { has_country_flag = meissen_division }
 		}
 		overlord = { 
 			country_event = {

@@ -24,14 +24,31 @@ capital = 187	# Verdun
 }
 
 
-1352.1.1 = {
-	monarch = {
-		name = "Robert I"
+1352.5.1 = {
+monarch = {
+		name = "Yolande de Cassel"
+		female=yes
+		regent=yes
+		culture=flemish
+		religion=catholic
+		birth_date=1326.9.15
+		death_date=1395.12.12
+		ADM = 4
+		DIP = 3
+		MIL = 1
+		}
+	heir = {
+		name = "Robert"
+		monarch_name ="Robert I"
 		dynasty = "de Montbéliard"
-		ADM = 2
+		birth_date = 1344.11.8
+		death_date = 1411.4.12
+		ADM = 3
 		DIP = 2
 		MIL = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = entrepreneur_personality
 }
 
 #1377.6.25 = {

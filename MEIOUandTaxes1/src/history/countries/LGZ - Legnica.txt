@@ -13,6 +13,7 @@ primary_culture = silesian
 add_accepted_culture = german_silesian
 religion = catholic
 capital = 2561
+historical_friend = POL # Treaty of Visegrad
 
 1000.1.1 = {
 	add_country_modifier = { name = title_3 duration = -1 }
@@ -22,17 +23,35 @@ capital = 2561
 	add_absolutism = 30
 }
 
-1347.3.27 = {
+1342.1.1 = {
 	monarch = {
-		name = "Waclaw"
+		name = "Waclaw I"
 		dynasty = "Piast"
+		birth_date = 1315.1.1
+		death_date = 1364.6.6
 		ADM = 2
 		DIP = 2
 		MIL = 3
 	}
+	queen = {
+		name = "Anna"
+		dynasty = "Piast"
+		birth_date = 1318.1.1
+		death_date = 1367.1.1
+		female = yes
+		country_of_origin = TES
+		ADM = 2
+		DIP = 2
+		MIL = 0
+	}
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = just_personality
+	add_queen_personality = calm_personality
+}
+1347.3.27 = {
 	heir = {
 		name = "Ruprecht"
-		monarch_name = "Ruprecht"
+		monarch_name = "Ruprecht I"
 		dynasty = "Piast"
 		birth_date = 1347.3.27
 		death_date = 1409.1.12

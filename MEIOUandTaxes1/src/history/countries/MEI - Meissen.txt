@@ -22,14 +22,30 @@ capital = 2617	# Dresden / Meissen
 	set_country_flag = d_of_sax
 }
 
-1349.1.1 = {
+1349.11.19 = {
 	monarch = {
 		name = "Friedrich III"
 		dynasty = "von Wettin"
+		birth_date = 1332.10.14
+		death_date = 1381.5.25
 		DIP = 3
 		ADM = 4
 		MIL = 2
 	}
+	queen = {
+		name = "Katharina"
+		dynasty = "von Henneberg"
+		birth_date = 1334.1.1
+		death_date = 1397.7.15
+		country_of_origin = HEN
+		female = yes
+		DIP = 2
+		ADM = 3
+		MIL = 1
+	}
+	clear_scripted_personalities = yes
+	add_queen_personality = pious_personality
+	add_ruler_personality = charismatic_negotiator_personality
 	set_country_flag = wettin_succession
 }
 

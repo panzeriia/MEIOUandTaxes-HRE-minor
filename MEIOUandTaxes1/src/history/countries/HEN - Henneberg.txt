@@ -21,12 +21,43 @@ capital = 3735
 	set_country_flag = d_of_sax
 }
 
-1347.1.1 = {
+1347.9.10 = {
 	monarch = {
-		name = "Heinrich V"
+		name = "Johann I"
 		dynasty = "von Henneberg"
+		birth_date = 1296.1.1
+		death_date = 1359.5.2
 		ADM = 2
-		DIP = 2
+		DIP = 3
+		MIL = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = calm_personality
+}
+1349.1.1 = {
+	queen = {
+		name = "Elisabeth"
+		dynasty = "von Leuchtenberg"
+		birth_date = 1326.1.1
+		death_date = 1361.7.25
+		country_of_origin = PAL
+		female = yes
+		ADM = 2
+		DIP = 3
+		MIL = 1
+	}
+	add_queen_personality = righteous_personality
+}
+1352.6.19 = {
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich VII"
+		birth_date = 1352.6.19
+		death_date = 1405.8.3
+		dynasty = "von Henneberg"
+		ADM = 1
+		DIP = 3
 		MIL = 2
 	}
 }

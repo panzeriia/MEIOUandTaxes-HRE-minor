@@ -12,6 +12,8 @@ religion = catholic
 technology_group = western
 capital = 79	# Kassel
 
+historical_rival = MAI
+
 1000.1.1 = {
 	add_country_modifier = { name = title_2 duration = -1 }
 	set_country_flag = title_2
@@ -23,23 +25,41 @@ capital = 79	# Kassel
 
 1328.11.7 = {
 	monarch = {
-		name = "Heinrich II"
+		name = "Heinrich II der Eiserne"
+		birth_date = 1299.1.1
 		dynasty = "von Hessen"
-		ADM = 3
-		DIP = 3
+		ADM = 2
+		DIP = 4
 		MIL = 4
+	}
+	define_ruler_to_general = {
+		fire = 1
+		shock = 2
+		manuever = 1
+		siege = 0
 	}
 	heir = {
 		name = "Otto"
-		monarch_name = "Otto"
+		monarch_name = "Otto II der Schütz"
 		dynasty = "von Hessen"
 		birth_date = 1322.1.1
-		death_date = 1366.1.1
+		death_date = 1366.12.1
 		claim = 95
-		ADM = 4
+		ADM = 2
 		DIP = 3
-		MIL = 3
+		MIL = 5
 	}
+	define_heir_to_general = {
+		fire = 0
+		shock = 2
+		manuever = 2
+		siege = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = strict_personality
+	add_heir_personality = inspiring_leader_personality
 }
 
 #1366.1.1 = {

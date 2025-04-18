@@ -31,11 +31,12 @@ capital = 3741
 }
 
 
-1349.1.1 = {
+1355.1.1 = {
 	monarch = {
-		name = "Balthasar"
-		DIP = 4
-		ADM = 1
-		MIL = 3
+		name = "Tobias Hofmeister"
+		DIP = 3
+		ADM = 3
+		MIL = 1
+		age = 30
 	}
 }

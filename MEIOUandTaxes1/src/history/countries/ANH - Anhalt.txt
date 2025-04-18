@@ -20,22 +20,25 @@ capital = 52	# Dessau
 	add_absolutism = 30
 }
 
-1316.1.1 = {
+1319.1.1 = {
 	monarch = {
 		name = "Albrecht II"
 		dynasty = "Askanier"
 		birth_date = 1300.1.1
+		death_date = 1362.7.17
 		ADM = 4
 		DIP = 4
 		MIL = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = careful_personality
 }
-
 1337.1.1 = {
 	queen = {
 		country_of_origin = SAX
 		name = "Beatrix von Saxe-Wittemberg"
-		dynasty = "von Wettin"
+		dynasty = "Askanier"
 		birth_date = 1300.2.3
 		death_date = 1345.2.26
 		female = yes
@@ -43,8 +46,8 @@ capital = 52	# Dessau
 		DIP = 2
 		MIL = 2
 	}
+	add_queen_personality = pious_personality
 }
-
 1338.1.1 = {
 	heir = {
 		name = "Albrecht"
@@ -53,25 +56,25 @@ capital = 52	# Dessau
 		birth_date = 1338.1.1
 		death_date = 1359.8.1
 		claim = 85
-		ADM = 2
+		ADM = 3
+		DIP = 2
+		MIL = 3
+	}
+	add_heir_personality = just_personality
+}
+1359.8.1 = {
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann II"
+		dynasty = "Askanier"
+		birth_date = 1339.1.1
+		death_date = 1382.4.11
+		claim = 85
+		ADM = 3
 		DIP = 3
-		MIL = 2
+		MIL = 3
 	}
 }
-
-#1359.8.1 = {
-#	heir = {
-#		name = "Johann"
-#		monarch_name = "Johann II"
-#		dynasty = "Askanier"
-#		birth_date = 1339.1.1
-#		death_date = 1382.4.11
-#		claim = 85
-#		ADM = 2
-#		DIP = 3
-#		MIL = 2
-#	}
-#}
 
 #1362.7.17 = {
 #	monarch = {

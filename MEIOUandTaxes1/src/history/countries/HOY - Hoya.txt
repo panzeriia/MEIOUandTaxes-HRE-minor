@@ -22,14 +22,43 @@ capital = 1364	# Hoya
 	set_country_flag = d_of_wes
 }
 
-1324.1.1 = {
+1324.8.2 = {
 	monarch = {
 		name = "Gerhard III"
 		dynasty = "von Hoya"
+		birth_date = 1320.1.1
+		death_date = 1383.10.13
 		ADM = 3
 		DIP = 2
 		MIL = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strict_personality
+	add_ruler_personality = calm_personality
+}
+1352.1.1 = {
+	queen = {
+		name = "Jutta"
+		dynasty = "von Oldenburg"
+		birth_date = 1326.1.1
+		death_date = 1383.1.1
+		country_of_origin = OLD
+		female = yes
+		ADM = 2
+		DIP = 3
+		MIL = 1
+	}
+	heir = {
+		name = "Otto"
+		monarch_name = "Otto III"
+		dynasty = "von Hoya"
+		birth_date = 1352.1.1
+		death_date = 1428.4.13
+		ADM = 4
+		DIP = 2
+		MIL = 4
+	}
+	add_queen_personality = kind_hearted_personality
 }
 
 #1383.1.1 = {

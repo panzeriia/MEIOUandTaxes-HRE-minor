@@ -21,16 +21,44 @@ capital = 3732
 	set_country_flag = d_of_pal
 }
 
-1328.1.1 = {
+1333.5.14 = {
 	monarch = {
-		name = "Philipp I"
+		name = "Philipp VI"
 		dynasty = "von Falkenstein"
-		ADM = 2
+		birth_date = 1320.1.1
+		death_date = 1373.8.6
+		ADM = 1
 		DIP = 2
 		MIL = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = embezzler_personality
 }
-
+1353.6.1 = {
+	queen = {
+		name = "Agnes von Falkenstein-Münzenberg"
+		ADM = 2
+		DIP = 2
+		MIL = 0
+		birth_date = 1337.1.1
+		death_date = 1380.9.28
+		female = yes
+	}
+	add_queen_personality = pious_personality
+}
+1355.1.1 = {
+	heir = {
+		name = "Werner"
+		monarch_name = "Werner III"
+		dynasty = "von Falkenstein"
+		birth_date = 1355.1.1
+		death_date = 1418.10.4
+		ADM = 3
+		DIP = 3
+		MIL = 0
+	}
+}
 #1388.1.1 = {
 #	monarch = {
 #		name = "Werner III"

@@ -29,23 +29,17 @@ historical_friend = GEL #Gelre
 
 1345.3.14 = {
 	monarch = {
-		name = "Conrad"
+		name = "Conrad II"
 		dynasty = "von Oldenburg"
+		birth_date = 1331.1.1
+		death_date = 1401.8.23
 		ADM = 2
 		DIP = 3
 		MIL = 2
 	}
-	heir = {
-		name = "Conrad"
-		monarch_name = "Conrad II"
-		dynasty = "von Oldenburg"
-		birth_date = 1340.1.1
-		death_date = 1386.1.12
-		claim = 95
-		ADM = 4
-		DIP = 5
-		MIL = 2
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = careful_personality
+	add_ruler_personality = secretive_personality
 }
 
 #1368.7.22 = {

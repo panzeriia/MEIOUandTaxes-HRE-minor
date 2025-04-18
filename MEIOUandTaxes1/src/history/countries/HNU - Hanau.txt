@@ -23,12 +23,28 @@ capital = 3733
 
 1346.1.1 = {
 	monarch = {
-		name = "Ultich III"
+		name = "Ulrich III"
 		dynasty = "von Hanau"
-		ADM = 2
-		DIP = 2
-		MIL = 2
+		birth_date = 1310.1.1
+		death_date = 1370.1.1
+		ADM = 5
+		DIP = 4
+		MIL = 3
 	}
+	heir = {
+		name = "Ulrich"
+		monarch_name = "Ulrich IV"
+		dynasty = "von Hanau"
+		birth_date = 1330.1.1
+		death_date = 1380.10.1
+		ADM = 4
+		DIP = 4
+		MIL = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = industrious_personality
+	add_heir_personality = industrious_personality
 }
 
 #1370.1.1 = {

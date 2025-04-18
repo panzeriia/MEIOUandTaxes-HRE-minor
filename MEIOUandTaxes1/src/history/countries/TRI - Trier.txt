@@ -27,12 +27,16 @@ historical_friend = KOL
 }
 
 #Elector-Archbishops of Trier
-1354.1.1 = {
+1354.2.6 = {
 	monarch = {
-		name = "Bohemond II"
+		name = "Boemund II"
+		dynasty = "von Saarbrücken"
+		birth_date = 1290.1.1
+		death_date = 1367.2.10
+		culture = lorraine
 		DIP = 3
-		ADM = 3
-		MIL = 3
+		ADM = 4
+		MIL = 1
 	}
 }
 

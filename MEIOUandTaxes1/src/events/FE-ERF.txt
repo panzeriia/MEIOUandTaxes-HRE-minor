@@ -1,0 +1,57 @@
+namespace=flavor_ERF
+province_event = {#Universitas Studii Erfordiensis
+	id = flavor_ERF.1
+	title = flavor_ERF.1.t
+	desc = flavor_ERF.1.d
+	picture = UNIVERSITY_eventPicture
+	fire_only_once = yes
+	trigger = {
+		owner = {
+			tag = ERF
+			owns = 3741 #Erfurt
+		}
+		is_year = 1389
+		NOT = { is_year = 1400 }
+ 		NOT = { has_province_flag = erfurt_uni }
+	}
+	mean_time_to_happen = {
+		years = 5
+	}
+	option = {
+		name = flavor_ERF.1.a
+		ai_chance = {
+			factor = 100 
+		}
+		owner = { add_treasury = -5 }
+		add_prestige = 2
+		3741 = {
+			set_province_flag = erfurt_uni
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					Prod_NotHasProd = { Prod = 30 }
+					Prod_Can_30 = yes
+				}
+			}
+			Public_AddProduce = { prod = 30 size = 5 soph = 100 wealth = 0 }
+			Infra_AddPrp = { Type=Academic Amount=1 }
+		}
+		define_advisor = {
+			type = philosopher_BG
+			skill = 2
+			name = "Ludwig Mollner"
+			discount = yes
+			location = 3741
+			religion = catholic
+			culture = thuringian
+		}
+	}
+	option = {
+		name = flavor_ERF.1.b
+		ai_chance = {
+			factor = 0 
+		}
+		add_prestige = -2
+	}
+}

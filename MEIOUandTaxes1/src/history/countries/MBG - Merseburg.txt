@@ -22,15 +22,18 @@ capital = 3744
 	set_country_flag = d_of_sax
 }
 
-1341.1.1 = {
+1341.7.11 = {
 	monarch = {
 		name = "Heinrich V"
-		dynasty = "von Stolberg"
-		birth_date = 1270.1.1
-		ADM = 2
-		DIP = 2
+		dynasty = "zu Stolberg"
+		birth_date = 1275.1.1
+		death_date = 1357.5.1
+		ADM = 5
+		DIP = 3
 		MIL = 2
 	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = pious_personality
 }
 
 #1357.1.1 = {

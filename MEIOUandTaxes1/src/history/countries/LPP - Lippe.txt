@@ -24,11 +24,38 @@ capital = 3813
 1344.1.1 = {
 	monarch = {
 		name = "Bernhard V"
-		dynasty = "von Schwerin"
-		ADM = 2
-		DIP = 2
+		dynasty = "von Lippe"
+		birth_date = 1290.1.1
+		death_date = 1365.1.1
+		ADM = 3
+		DIP = 3
 		MIL = 2
 	}
+	queen = {
+		name = "Richardis"
+		dynasty = "von der Mark"
+		ADM = 2
+		DIP = 2
+		MIL = 1
+		country_of_origin = MRK
+		birth_date = 1317.1.1
+		death_date = 1385.1.1
+		female = yes
+	}
+	heir = {
+		name = "Simon"
+		monarch_name = "Simon III"
+		dynasty = "von Lippe"
+		birth_date = 1340.1.1
+		death_date = 1410.1.1
+		claim = 30
+		ADM = 3
+		DIP = 3
+		MIL = 1
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = industrious_personality
+	add_queen_personality = righteous_personality
 }
 
 #1364.1.1 = {

@@ -24,12 +24,16 @@ capital = 3727
 
 1331.1.1 = {
 	monarch = {
-		name = "Heinrich III von Welf"
+		name = "Heinrich III"
+		dynasty = "von Welf"
 		birth_date = 1296.1.1
-		ADM = 3
-		DIP = 3
-		MIL = 3
+		ADM = 2
+		DIP = 4
+		MIL = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = silver_tongue_personality
 }
 
 #1363.1.1 = {

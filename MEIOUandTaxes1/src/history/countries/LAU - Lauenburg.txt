@@ -29,22 +29,40 @@ capital = 1353	# Lauenburg
 	complete_mission = hre_become_duchy
 }
 
-1320.1.1 = {
+1338.1.1 = {
 	monarch = {
-		name = "Erich I"
+		name = "Erich II"
 		dynasty = "Askanier"
-		birth_date = 1285.1.1
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-	heir = {
-		name = "Erich"
-		monarch_name = "Erich II"
-		dynasty = "Askanier"
-		claim = 95
 		birth_date = 1320.1.1
 		death_date = 1368.1.1
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	queen = {
+		name = "Agnes von Holstein"
+		dynasty = "von Holstein"
+		birth_date = 1328.1.1
+		death_date = 1386.1.1
+		country_of_origin = SHL
+		female = yes
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = martial_educator_personality
+	add_queen_personality = zealot_personality
+}
+1354.1.1 = {
+	heir = {
+		name = "Erich"
+		monarch_name = "Erich IV"
+		dynasty = "Askanier"
+		claim = 95
+		birth_date = 1354.1.1
+		death_date = 1411.1.1
 		adm = 3
 		dip = 2
 		mil = 4

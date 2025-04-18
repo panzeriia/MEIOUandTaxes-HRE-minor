@@ -21,14 +21,51 @@ capital = 3731
 	set_country_flag = d_of_pal
 }
 
-1349.1.1 = {
+1304.1.1 = {
 	monarch = {
-		name = "Gottfried VII"
+		name = "Johann I"
 		dynasty = "von Ziegenheim"
+		birth_date = 1294.1.1
+		death_date = 1359.12.15
+		ADM = 5
+		DIP = 4
+		MIL = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = midas_touched_personality
+}
+1312.1.1 = {
+	heir = {
+		name = "Gottfried"
+		monarch_name = "Gottfried VII"
+		dynasty = "von Ziegenheim"
+		birth_date = 1312.1.1
+		death_date = 1372.11.8
+		ADM = 4
+		DIP = 3
+		MIL = 3
+	}
+	define_heir_to_general = {
+		fire = 1
+		shock = 2
+		manuever = 1
+		siege = 0
+	}
+	add_heir_personality = secretive_personality
+}
+1340.1.1 = {
+	queen = {
+		country_of_origin = KOL
+		name = "Adelheid von Arnsberg"
+		birth_date = 1321.1.1
+		death_date = 1378.1.1
+		female = yes
 		ADM = 2
 		DIP = 2
-		MIL = 2
+		MIL = 1
 	}
+	add_queen_personality = pious_personality
 }
 
 #1372.1.1 = {

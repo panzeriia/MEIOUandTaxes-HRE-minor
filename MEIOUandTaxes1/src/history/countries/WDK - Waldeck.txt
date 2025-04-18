@@ -25,10 +25,39 @@ capital = 3730
 	monarch = {
 		name = "Otto II"
 		dynasty = "von Waldeck"
+		birth_date = 1307.1.1
+		death_date = 1369.1.1
 		ADM = 2
 		DIP = 2
 		MIL = 2
 	}
+	queen = {
+		name = "Mechthild"
+		dynasty = "von Welf"
+		birth_date = 1322.1.1
+		death_date = 1357.9.7
+		country_of_origin = LUN
+		female = yes
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+	heir = {
+		name = "Heinrich VI"
+		monarch_name = "Heinrich VI der Eiserne"
+		dynasty = "von Waldeck"
+		birth_date = 1340.1.1
+		death_date = 1397.2.16
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 4
+	}
+		clear_scripted_personalities = yes
+		add_ruler_personality = calm_personality
+		add_ruler_personality = infertile_personality
+		add_queen_personality = kind_hearted_personality
+		add_heir_personality = bold_fighter_personality
 }
 
 #1397.2.16 = {
