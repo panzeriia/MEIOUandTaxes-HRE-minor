@@ -2482,6 +2482,7 @@ Modi_ProdProvince = {
 		edu_12 = { change_key = { lhs = Modi_KnowledgeOutput value = 0.12 } }
 		edu_8 = { change_key = { lhs = Modi_KnowledgeOutput value = 0.12 } }
 		edu_11 = { change_key = { lhs = Modi_KnowledgeOutput value = 0.12 } }
+		erfurt_uni = { change_key = { lhs = Modi_KnowledgeOutput value = 0.07 } }
 	}
 	if = {
 		limit = {
