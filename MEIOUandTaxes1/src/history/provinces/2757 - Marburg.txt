@@ -30,6 +30,12 @@ discovered_by = muslim
 		duration = -1
 	}
 }
+1235.5.28 = {#St Elizabeth of Hungary
+	add_province_modifier = {
+		name = catholic_pilgrimage
+		duration = -1
+	}
+}
 #1500.1.1 = {
 #	fort_14th = yes
 #}
