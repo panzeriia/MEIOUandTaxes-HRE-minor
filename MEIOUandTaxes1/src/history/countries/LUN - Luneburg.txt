@@ -22,16 +22,33 @@ capital = 53	# Lï¿½neburg
 	set_country_flag = d_of_wes
 }
 
-# Lï¿½neburg (Dukes of Braunschweig-Lï¿½neburg)
-1345.4.20 = {
+# Lüneburg (Dukes of Braunschweig-Lüneburg)
+1345.4.17 = {
 	monarch = {
 		name = "Wilhelm II"
 		dynasty = "von Welf"
+		birth_date = 1300.1.1
+		death_date = 1369.11.23
 		DIP = 2
 		ADM = 3
 		MIL = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
 	set_country_flag = welf_succession
+}
+1346.3.12 = {
+	queen = {
+		name ="Sophie"
+		dynasty ="von Anhalt"
+		birth_date = 1328.1.1
+		death_date = 1362.12.18
+		country_of_origin = ANH
+		female = yes
+		ADM = 2
+		DIP = 3
+		MIL = 1
+	}
 }
 
 #1369.7.19 = {
@@ -207,7 +224,7 @@ capital = 53	# Lï¿½neburg
 #	add_government_reform = Pol_Succession1
 #	add_government_reform = Pol_Assembly1
 #	add_government_reform = Pol_Nobility1
-add_government_reform = Pol_Centralisation2
+#	add_government_reform = Pol_Centralisation2
 #	heir = {
 #		name = "Franz Otto"
 #		monarch_name = "Franz Otto I"

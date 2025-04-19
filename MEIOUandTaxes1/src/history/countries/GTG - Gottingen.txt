@@ -1,4 +1,4 @@
-# Fï¿½rstentum Gï¿½ttingen
+# Furstentum Göttingen
 
 government = monarchy
 add_government_reform = Pol_Succession1 #feel free to revise
@@ -10,7 +10,7 @@ mercantilism = 0.0
 primary_culture = eastphalian
 religion = catholic
 technology_group = western
-capital = 2618 # Gï¿½ttingen (was Coburg-Gotha)
+capital = 2618 # Göttingen (was Coburg-Gotha)
 
 #Duke Ernest I, but it is generally assumed that he continued to fight against aristocratic knights.
 #Ernest I was succeeded after his death in 1367 by his son Otto I of Gï¿½ttingen (the Evil; German: der Quade) (d 1394),
@@ -26,14 +26,43 @@ capital = 2618 # Gï¿½ttingen (was Coburg-Gotha)
 	monarch = {
 		name = "Ernest I"
 		dynasty = "von Welf"
+		birth_date = 1305.1.1
+		death_date = 1367.4.24
 		adm = 2
 		dip = 3
 		mil = 4
 	}
+	heir = {
+		name = "Otto"
+		monarch_name = "Otto I der Quade"
+		dynasty = "von Welf"
+		birth_date = 1340.1.1
+		death_date = 1394.12.13
+		claim = 90
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+	queen = {
+		name = "Elisabeth"
+		dynasty = "von Hessen"
+		birth_date = 1324.1.1
+		death_date = 1390.3.7
+		country_of_origin = HES
+		female = yes
+		ADM = 1
+		DIP = 3
+		MIL = 1
+	}
+	clear_scripted_personalities = yes
+	add_queen_personality = pious_personality
+	add_heir_personality = naive_personality
+	add_ruler_personality = calm_personality
+	add_ruler_personality = careful_personality
 	set_country_flag = welf_succession
 }
 
-#1367.1.1 = {
+#1367.4.25 = {
 #	monarch = {
 #		name = "Otto"
 #		dynasty = "von Welf"
