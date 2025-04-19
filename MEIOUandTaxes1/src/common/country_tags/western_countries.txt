@@ -232,6 +232,8 @@ ZIE	= "countries/Ziegenhain.txt"						#/*
 
 BGG	= "countries/Bourgogne.txt"						#/*
 FBE	= "countries/Besancon.txt"						#/*
+SAA = "countries/Saarbrucken.txt"
+FLD = "countries/Fulda.txt"
 
 #
 # Silesia

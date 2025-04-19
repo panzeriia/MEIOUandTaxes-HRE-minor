@@ -13,6 +13,7 @@ technology_group = western
 capital = 79	# Kassel
 
 historical_rival = MAI
+historical_rival = FLD
 
 1000.1.1 = {
 	add_country_modifier = { name = title_2 duration = -1 }

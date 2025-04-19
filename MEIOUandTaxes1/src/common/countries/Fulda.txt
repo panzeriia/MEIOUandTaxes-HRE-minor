@@ -1,0 +1,76 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 136  0  21 }
+
+historical_idea_groups = {
+	administrative_ideas
+	economic_ideas
+	diplomatic_ideas
+}
+
+historical_units = { #North German group
+	western_halberd_infantry
+	western_knight_cavalry
+	western_manatarms_infantry
+	western_freecompany_infantry
+	western_runner_cavalry
+	western_pike_infantry
+	western_gendarme_cavalry
+	western_wheellock_infantry
+	unique_GER_landsknecht_infantry
+	western_earlytercio_infantry
+	western_cuirassier_cavalry
+	western_tercio_infantry
+	western_musketeersquare_infantry
+	western_dragoon_cavalry
+	western_countermarch_infantry
+	western_volley_infantry
+	western_regular_infantry
+	western_line_infantry
+	unique_PRU_frederickian_infantry
+	western_mediumhussar_cavalry
+	western_drill_infantry
+	unique_PRU_oblique_infantry
+	western_uhlan_cavalry
+	western_impulse_infantry
+	western_lancer_cavalry
+	western_breech_infantry
+}
+
+monarch_names = {
+	"Konrad #3" = 15
+	"Johann #0" = 10
+	"Friedrich #0" = 10
+	"Hermann #1" = 10
+	"Hartmann #1" = 10
+	"Reinhard #0" = 8
+	"Philipp #0" = 7
+	"Wolfgang #0" = 5
+	"Balthasar #0" = 5
+	"Johann Friedrich #0" = 4
+	"Johann Adolf" = 4
+	"Wilhelm Hartmann" = 2
+	
+	"Agnes #0" = -1
+	"Elisabeth #0" = -1
+	"Anna #0" = -1
+	"Helene" = -1
+}
+
+leader_names = {
+	"von Hanau" "von Kirchberg" "von Weilnau" "von Romrod" "von Bimbach"
+	"von Buchenau" "von Schleusingen" "zu Schweinsberg" "zu Wohra" "von Schwalbach"
+	"von Dernbach" "von Mespelbrunn" "von Hoheneck" "von Merlau" "von Rodenstein"
+}
+
+ship_names = {
+	"Sturmius" Fulda "Hatto I" "Hrabanus Maurus" "Hatto II" "Ratgar" "St. Ursula"
+	"St. Michael" "St. Andreas" "St. Dionysius" "St. Peter" "St. Bonifatius" 
+	Karsbach Hörsel "St. Wolfgang" Zellingen 
+}
+
+army_names = {
+	"Armee von $PROVINCE$" 
+}

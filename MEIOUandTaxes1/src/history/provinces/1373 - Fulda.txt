@@ -1,8 +1,8 @@
 # 1373 - Fulda
 
-owner = WBG
-controller = WBG
-add_core = WBG
+owner = FLD
+controller = FLD
+add_core = FLD
 
 capital = "Fulda"
 trade_goods = wine

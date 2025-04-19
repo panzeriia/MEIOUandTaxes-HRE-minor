@@ -8,8 +8,10 @@ revolutionary_colors = { 5  13  8 }
 
 historical_idea_groups = {
 	aristocracy_ideas
-	fortification_ideas
+	diplomacy_ideas
+	plutocracy_ideas
 	administrative_ideas
+	economic_ideas
 }
 
 historical_units = { #North German group
@@ -43,80 +45,40 @@ historical_units = { #North German group
 
 
 monarch_names = {
-	"Johann #0" = 60
-	"Konrad #1" = 40
-	"Johann Gottfried #0" = 40
-	"Johann Philipp #0" = 40
-	"Gottfried #3" = 20
-	"Rudolf #1" = 20
-	"Adam Friedrich #0" = 20
-	"Anselm Franz #0" = 20
-	"Christoph Franz #0" = 20
-	"Ferdinand #0" = 20
-	"Franz #0" = 20
-	"Franz Ludwig #0" = 20
-	"Friedrich #0" = 20
-	"Friedrich Karl #0" = 20
-	"Georg Karl #0" = 20
-	"Johann Hartmann #0" = 20
-	"Julius Echter #0" = 20
-	"Karl Philipp #0" = 20
-	"Konrad Wilhelm #0" = 20
-	"Lorenz #0" = 20
-	"Melchior #0" = 20
-	"Peter Philipp #0" = 20
-	"Philipp Adolf #0" = 20
-	"Philipp Franz #0" = 20
-	"Siegmund #0" = 20
-	"Albrecht #3" = 15
-	"Hermann #2" = 15
-	"Otto #2" = 15
-	"Gerhard #1" = 15
-	"Wolfram #1" = 15
-	"Leopold #0" = 15
-	"Heinrich #5" = 10
-	"Poppo #3" = 10
-	"Berthold #2" = 10
-	"Andreas #1" = 10
-	"Dietrich #1" = 10
-	"Friedrich #1" = 10
-	"Alfred #0" = 1
-	"Christian #0" = 1
-	"Jürgen #0" = 1
+	"Albrecht #2" = 14
+	"Gerhard #0" = 10
+	"Johann #0" = 10
+	"Gottfried #3" = 10
+	"Rudolf #1" = 8
+	"Lorenz #0" = 7
+	"Konrad #1" = 8
+	"Friedrich #0" = 7
+	"Franz" = 5
+	"Johann Gottfried #0" = 4
+	"Johann Philipp #0" = 4
+	"Philipp Adolf #0" = 4
 	
-	"Aleida #0" = -1
-	"Cordula #0" = -1
-	"Gundula #0" = -1
-	"Selma #0" = -1
-	"Ulrike #0" = -1
-	"Barbara #0" = -1
-	"Alexandra #0" = -1
-	"Christiane #0" = -1
-	"Emma #0" = -1
-	"Corinna #0" = -1
-	"Else #0" = -1
-	"Hedwig #0" = -1
-	"Sylvia #0" = -1
-	"Wilhelmine #0" = -1
-	"Alexis #0" = -1
-	"Evelyn #0" = -1
-	"Hannelore #0" = -1
-	"Irma #0" = -1
-	"Heinrike #0" = -1
-	"Ilona #0" = -1
-	"Andrea #0" = -1
+	"Elisabeth" = -1
+	"Agnes" = -1
+	"Lucia" = -1
+	"Helene" = -1
+	"Margarete" = -1
+	"Anna" = -1
+	"Johanna" = -1
+	"Katharina" = -1
 }
 
 leader_names = {
-	Dick Sell Söll Schwager Fichtelmann Höhrer Rank
-	Gäbelein Bär Degen Färber Simon Wirth Sack
-	Blochberger Födisch Egelkraut Hager Hofmann
+	"von Hohenberg" "von Heßberg" "von Schwarzburg" "von Egloffstein"
+	"von Brunn" "von Limpurg" "von Grumbach" "von Scherenberg" "von Bibra"
+	"von Thüngen" "von Wirsberg" "von Mespelbrunn" "von Aschhausen" "von Hatzfeld"
+	"von Dernbach" "von Lobdeburg" "von Botenlauben" "von Wolfskeel" "von Schenkenwald"
 }
 
 ship_names = {
-	Marienberg "Julius Echter" Main Höchberg
-	Rimpar Biebelried Eigelstadt Uettingen
-	Gramschatz Wern Bergtheim Kietzingen Ochsenfurth
+	"St. Gumbert" "St. Bruno" "St. Adalbero" "St. Burkard" "St. Egidius" 
+	"Julius Echter" Waldbrunn Höchberg Rimpar Hettstadt Eigelstadt Uettingen
+	Güntersleben Rottendorf Bergtheim Kietzingen Ochsenfurt Kürnach Giebelstadt
 }
 
 army_names = {
