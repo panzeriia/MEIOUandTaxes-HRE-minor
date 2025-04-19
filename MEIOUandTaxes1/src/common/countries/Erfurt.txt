@@ -42,7 +42,9 @@ historical_units = { #North German group
 
 monarch_names = {
 "Johann" = 10
-"Heinrich" = 10
+"Heinrich" = 15
+"Hartung" 10
+"Hermann" = 10
 "Christoph" = 10
 "Conrad" = 10
 "Georg" = 10
@@ -50,22 +52,27 @@ monarch_names = {
 "Ludwig" = 10
 "Niclaus" = 10
 "Adolff" = 10
-"Hans" = 5
+"Claus" = 7
+"Hans" = 7
 "Wolff" = 5
 "Steffan" = 5
-"Tobias" = 5
+"Gerhard" = 6
 "Herbord" = 5
 "Jacob" = 5
 "Thomas" = 4
 "Michael" = 4
+"Dietrich" = 7
+"Jürge" = 7
+
 
 }
 
 leader_names = {
 "Schweitzer" "Scharff" "Wickardt" "Limprecht" "Schnauß"
-"Dörnhard" "von Reiss" "Isserstedt" "Bühl" "Schmidt"
-"Stichling" "Eckard" "Lindemann" "Schnapper" "Thun"
+"Dörnhard" "von Reiss" "Isserstedt" "Bühl" "Schmidt" "von Tanrode"
+"Stichling" "Eckard" "Lindemann" "Schnapper" "Thun" "von Galmestorf"
 "Weißhoff" "Müller" "Mönch" "Reichart" "Kühne" "Rühl"
+"Schildt" "von Kongisse" "von Smyre" "von Bechstete" "von Schobiltz"
 }
 
 ship_names = {

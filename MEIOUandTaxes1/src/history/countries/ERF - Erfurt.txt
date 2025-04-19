@@ -33,7 +33,7 @@ capital = 3741
 
 1355.1.1 = {
 	monarch = {
-		name = "Tobias Hofmeister"
+		name = "Gunther von Kongisse"
 		DIP = 3
 		ADM = 3
 		MIL = 1
