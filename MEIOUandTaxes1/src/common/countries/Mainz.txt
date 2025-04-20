@@ -41,83 +41,42 @@ historical_units = { #North German group
 
 
 monarch_names = {
-	"Albrecht #1" = 40
-	"Konrad #2" = 20
-	"Adolf #1" = 20
-	"Johann #1" = 20
-	"Anselm Franz #0" = 20
-	"Anselm Kasimir #0" = 20
-	"Berthold #0" = 20
-	"Damian Hartrad #0" = 20
-	"Daniel Brendel #0" = 20
-	"Dieter #0" = 20
-	"Dietrich #0" = 20
-	"Emmerich Joseph #0" = 20
-	"Franz Ludwig #0" = 20
-	"Friedrich Karl Joseph #0" = 20
-	"Georg Friedrich #0" = 20
-	"Jakob #0" = 20
-	"Johann Adam #0" = 20
-	"Johann Friedrich Karl #0" = 20
-	"Johann Philipp #0" = 20
-	"Johann Schweikhard #0" = 20
-	"Karl Heinrich #0" = 20
-	"Karl Theodor #0" = 20
-	"Lothar Franz #0" = 20
-	"Lothar Friedrich #0" = 20
-	"Philipp Karl #0" = 20
-	"Sebastian #0" = 20
-	"Uriel #0" = 20
-	"Wolfgang #0" = 20
-	"Heinrich #3" = 10
-	"Ludwig #1" = 15
-	"Matthias #1" = 15
-	"Peter #1" = 15
-	"Christian #3" = 10
-	"Siegfried #3" = 10
-	"Gerhard #2" = 10
-	"Werner #2" = 10
-	"Gottfried #0" = 1
-	"Hieronymus #0" = 1
-	"Markus #0" = 1
-	"Raphael #0" = 1
+	"Ludwig #0" = 10
+	"Konrad #1" = 15
+	"Adolf #0" = 15
+	"Johann #0" = 10
+	"Gottfried #0" = 10
+	"Dietrich #0" = 10
+	"Adalbert #2" = 12
+	"Berthold #0" = 7
+	"Albrecht #0" = 7
+	"Uriel #0" = 5
+	"Jakob #0" = 5
+	"Georg #0" = 3
 	
-	"Aleida #0" = -1
-	"Cordula #0" = -1
-	"Gundula #0" = -1
-	"Selma #0" = -1
-	"Ulrike #0" = -1
-	"Barbara #0" = -1
-	"Alexandra #0" = -1
-	"Christiane #0" = -1
-	"Emma #0" = -1
-	"Corinna #0" = -1
-	"Else #0" = -1
+	"Elisabeth #0" = -1
+	"Agnes #0" = -1
+	"Christina #0" = -1
+	"Mechthilde #0" = -1
 	"Hedwig #0" = -1
-	"Sylvia #0" = -1
+	"Margarete #0" = -1
 	"Wilhelmine #0" = -1
-	"Alexis #0" = -1
-	"Evelyn #0" = -1
-	"Hannelore #0" = -1
-	"Irma #0" = -1
-	"Heinrike #0" = -1
-	"Ilona #0" = -1
-	"Andrea #0" = -1
+
 }
 
 leader_names = {
-	Alfter Allendorf Assmann Barth Becker Betz
-	Bopp Bornschlegel Dörrenbecher Dude Fust Eins
-	Göhler Grob Haas Heidelberger Ickstadt Lawall
-	Pittschaft Schmitt Schoeneberger Storck Volz
+	"von Dhaun" "zu Duderstadt" "von Leiningen" "von Virneburg" "zu Heiligenstadt" "zu Klingenberg"
+	"zu Eltville" "zu Steinheim" "zu Eberbach" "zu Lorsch" "zu Lohr" "zu Lahnstein" "von Kaltental"
+	"zu Hersfeld" "zu Kirchheim" "zu Bebra" "von Romrod" "von Herzberg" "zu Breitenbach"
+	"zu Rotenburg" "zu Ingelheim" "zu Ruzelnsheim" "zu Bodenheim" "von Signau" "von Liebenstein"
 }
 
 ship_names = {
-	"St. Theonest" "St. Georg" "St. Peter"
+	"St. Antonius" "St. Johannes" "St. Emmeran"
 	Udenmünster "St. Christoph" "St. Lambert"
-	"St. Quintin" "St. Maria" "St. Johannes"
-	"St. Emmeran" "St. Ignaz" Hagenmünster
-	"St. Aureus" "St. Nicomedes" "St. Alban"
+	"St. Quintin" "St. Maria" "St. Theonest"
+	"St. Georg" "St. Ignaz" Hagenmünster "St. Alban"
+	"St. Aureus" "St. Nicomedes" "St. Peter" "Rabanus Maurus"
 }
 
 army_names = {

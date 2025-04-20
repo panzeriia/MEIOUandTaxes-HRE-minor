@@ -7,7 +7,7 @@ color = { 136  0  21 }
 historical_idea_groups = {
 	administrative_ideas
 	economic_ideas
-	diplomatic_ideas
+	diplomacy_ideas
 }
 
 historical_units = { #North German group

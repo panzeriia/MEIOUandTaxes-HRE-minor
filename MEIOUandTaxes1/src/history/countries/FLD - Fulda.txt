@@ -38,4 +38,10 @@ historical_friend = MAI
 	clear_scripted_personalities = yes
 	add_ruler_personality = naive_personality
 }
+1356.6.1 = {
+	add_ruler_modifier = {
+		name = erzkanzler_der_kaiserin
+		duration = -1
+	}
+}
 

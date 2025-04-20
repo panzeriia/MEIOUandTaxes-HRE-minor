@@ -38,13 +38,13 @@
 #}
 #
 ##Lüneburg
-dependency = {
-	subject_type = "personal_union"
-	first = BRU
-	second = LUN
-	start_date = 1356.1.1
-	end_date = 1373.1.1
-}
+#dependency = {
+#	subject_type = "personal_union"
+#	first = BRU
+#	second = LUN
+#	start_date = 1356.1.1
+#	end_date = 1373.1.1
+#}
 
 #dependency = {
 #	subject_type = "personal_union"
@@ -1377,4 +1377,46 @@ dependency = {
 	second = TIR
 	start_date = 1342.2.10
 	end_date = 1369.10.3
+}
+royal_marriage={
+	first=GTG 
+	second=HES 
+	start_date=1339.1.1 
+	end_date=1367.4.24 
+}
+royal_marriage={
+	first=WDK 
+	second=LUN 
+	start_date=1339.1.1 
+	end_date=1357.9.7 
+}
+royal_marriage={
+	first=NAS 
+	second=SAA 
+	start_date=1353.1.1 
+	end_date=1371.9.20 
+}
+royal_marriage={
+	first=KLE 
+	second=GEL 
+	start_date=1336.1.1 
+	end_date=1368.11.19 
+}
+royal_marriage={
+	first=MEI 
+	second=HEN 
+	start_date=1350.1.1 
+	end_date=1381.5.21 
+}
+royal_marriage={
+	first=SAX 
+	second=HES 
+	start_date=1333.1.1 
+	end_date=1370.12.6 
+}
+royal_marriage={
+	first=LUN 
+	second=ANH 
+	start_date=1346.3.12 
+	end_date=1362.12.18 
 }

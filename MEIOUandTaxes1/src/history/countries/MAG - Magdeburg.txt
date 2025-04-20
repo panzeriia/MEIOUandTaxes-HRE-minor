@@ -23,16 +23,31 @@ capital = 1350	# Magdeburg
 	set_country_flag = d_of_sax
 }
 
-1327.5.30 = {
+1327.3.2 = {
 	monarch = {
 		name = "Otto"
 		dynasty = "von Hessen"
-		ADM = 1
+		birth_date = 1301.1.1
+		death_date = 1361.4.30
+		ADM = 3
 		DIP = 4
 		MIL = 1
 	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = calm_personality
 }
-
+1356.12.30 = {
+	heir = {
+		name = "Otto"
+		dynasty = "von Hessen"
+		ADM = 2
+		DIP = 3
+		MIL = 1
+		culture = hessian
+		religion = catholic
+		birth_date = 1341.1.1
+	}
+}
 #1361.12.1 = {
 #	monarch = {
 #		name = "Dietrich Kagelwit"
@@ -164,7 +179,7 @@ capital = 1350	# Magdeburg
 #	add_government_reform = Pol_Succession1
 #	add_government_reform = Pol_Assembly1
 #	add_government_reform = Pol_Nobility1
-add_government_reform = Pol_Centralisation2
+#	add_government_reform = Pol_Centralisation2
 #	remove_country_modifier = title_3 clr_country_flag = title_3 add_country_modifier = { name = title_3 duration = -1 }
 #	set_country_flag = title_3
 #}

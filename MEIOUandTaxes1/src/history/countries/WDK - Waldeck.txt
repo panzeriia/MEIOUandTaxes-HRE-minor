@@ -108,7 +108,7 @@ capital = 3730
 #	add_government_reform = Pol_Succession1
 #	add_government_reform = Pol_Assembly1
 #	add_government_reform = Pol_Nobility1
-add_government_reform = Pol_Centralisation2
+#	add_government_reform = Pol_Centralisation2
 #}
 
 #1530.8.1 = {

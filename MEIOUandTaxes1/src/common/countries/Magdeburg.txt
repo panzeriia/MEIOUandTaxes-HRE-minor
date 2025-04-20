@@ -6,7 +6,7 @@ color = { 189  115  99 }
 
 historical_idea_groups = {
 	aristocracy_ideas
-	fortification_ideas
+	diplomacy_ideas
 	administrative_ideas
 }
 
@@ -41,81 +41,48 @@ historical_units = { #North German group
 
 
 monarch_names = {
-	"Albrecht #2" = 40
-	"Friedrich #2" = 40
-	"Günther #1" = 20
-	"August #0" = 20
-	"Christian Wilhelm #0" = 20
-	"Ernst #0" = 20
-	"Joachim Friedrich #0" = 20
-	"Johann #0" = 20
-	"Johann Albrecht #0" = 20
-	"Leopold Wilhelm #0" = 20
-	"Siegmund #0" = 20
-	"Dietrich #1" = 15
-	"Ludwig #1" = 15
-	"Otto #1" = 15
-	"Peter #1" = 15
-	"Burkhard #3" = 10
-	"Heinrich #2" = 10
-	"Konrad #2" = 10
-	"Bernhard #1" = 10
-	"Erich #1" = 10
-	"Rudolf #1" = 10
-	"Ruprecht #1" = 10
-	"Adolf #0" = 1
-	"Clemens #0" = 1
-	"Diederick #0" = 1
-	"Eberhard #0" = 1
-	"Fabian #0" = 1
-	"Gottfried #0" = 1
-	"Helmut #0" = 1
-	"Herbert #0" = 1
-	"Hermann #0" = 1
-	"Jakob #0" = 1
-	"Luitpold #0" = 1
-	"Manfred #0" = 1
-	"Markus #0" = 1
-	"Rainer #0" = 1
-	"Siegfried #0" = 1
-	"Stefan #0" = 1
-	"Viktor #0" = 1
-	"Wolfgang #0" = 1
+	"Albrecht #2" = 12
+	"Friedrich #1" = 10
+	"Günther #1" = 10
+	"Dietrich #0" = 6
+	"Johann #0" = 7
+	"Ernst #0" = 5
+	"Johann Albrecht #0" = 4
+	"Siegmund #0" = 4
+	"Johann Friedrich #0" = 4
+	"Konrad #2" = 3
+	"Günther #1" = 3
+	"Burchard #2" = 3
+	"Heinrich #2" = 3
+	"Bernhard #1" = 3
+	"Ludolf #0" = 2
 	
-	"Aleida #0" = -1
-	"Cordula #0" = -1
-	"Gundula #0" = -1
-	"Selma #0" = -1
-	"Ulrike #0" = -1
-	"Barbara #0" = -1
-	"Alexandra #0" = -1
-	"Christiane #0" = -1
-	"Emma #0" = -1
-	"Corinna #0" = -1
-	"Else #0" = -1
-	"Hedwig #0" = -1
-	"Sylvia #0" = -1
-	"Wilhelmine #0" = -1
-	"Alexis #0" = -1
-	"Evelyn #0" = -1
-	"Hannelore #0" = -1
-	"Irma #0" = -1
-	"Heinrike #0" = -1
-	"Ilona #0" = -1
-	"Andrea #0" = -1
+	"Kunigunde #0" = -1
+	"Irmgard #0" = -1
+	"Mechthild #0" = -1
+	"Sophie #0" = -1
+	"Katharina #0" = -1
+	"Anna #0" = -1
+	"Helene #0" = -1
+	"Margarethe #0" = -1
+	"Elisabeth #0" = -1
 }
 
 leader_names = {
-	Ahrendt Ahrenkiel Bärwald Bastel Bause Bollers
-	Burghoff Herms Meyer Schönebeck Schlehenstein Schulz
-	Zimmerhäckel Winter Wahrenholz Wäger
+	"von Schraplau" "von Hoym" "von Beichlingen" "von Blankenburg"  
+	"von Wölpe" "von Sternberg" "von Schwalenberg" "von Käfernburg"
+	"zu Havelberg" "zu Lebus" "zu Haldensleben" "zu Wolmirstedt" 
+	"zu Jüterbog" "zu Gerbstedt" "zu Staßfurt" "zu Jerichow" "zu Calvörde"
+	"zu Dahme" "zu Plattenburg" "zu Schönhausen" "zu Fischbeck" "zu Möckern"
+	
 }
 
 ship_names = {
-	"Barleber See" Friedrichstadt Buckau
-	Diesdorf Silberberg Kreuzhorst Lemsdorf
-	Olvenstedt Pechau Prester Randau Rothensee
-	Salbke Sudenburg Westerhüsen
+	"St. Mauritius" "St. Gangolfi" "Havelberg" "Magdeburg" "St. Marien" "St. Ambrosius"
+	"Wolmirstedt" "St. Nikolai" "St. Gertraud" "St. Johannis" "St. Agnes" 
+	"St. Petri" "St. Eustachius" "St. Egidius" "St. Sebastian" "St. Laurentii" 
+	"Barleber See" Friedrichstadt Buckau Diesdorf Silberberg Kreuzhorst Lemsdorf
+	Olvenstedt Pechau Prester Randau Rothensee Salbke Sudenburg Westerhüsen
 }
 
 army_names = {

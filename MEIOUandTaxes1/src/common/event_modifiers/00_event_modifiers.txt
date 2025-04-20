@@ -8333,3 +8333,11 @@ dohna_feud = {
 	local_autonomy = -0.05
 	inflation_reduction = 0.03
 }
+erzkanzler_der_kaiserin = {
+	improve_relation_modifier = 0.05
+	prestige = 0.25
+	yearly_corruption = 0.25
+	global_tax_income = 3
+	global_autonomy = 0.02
+	picture = "ruler_icon"
+}
