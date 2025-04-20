@@ -1,0 +1,70 @@
+#Country Name: Saarbrucken
+graphical_culture = westerngfx
+
+color = { 255 218 3 } 
+
+historical_idea_groups = {
+	aristocracy_ideas
+	trade_ideas
+	administrative_ideas
+}
+
+historical_units = { #South German group
+	western_halberd_infantry
+	western_knight_cavalry
+	western_manatarms_infantry
+	western_freecompany_infantry
+	western_runner_cavalry
+	western_pike_infantry
+	western_gendarme_cavalry
+	western_wheellock_infantry
+	unique_GER_landsknecht_infantry
+	western_earlytercio_infantry
+	western_cuirassier_cavalry
+	western_tercio_infantry
+	western_musketeersquare_infantry
+	western_dragoon_cavalry
+	western_countermarch_infantry
+	western_volley_infantry
+	western_regular_infantry
+	western_skirmisher_infantry
+	western_mediumhussar_cavalry
+	western_mass_infantry
+	western_uhlan_cavalry
+	western_columnar_infantry
+	western_lancer_cavalry
+	western_jominian_infantry
+}
+
+monarch_names = {
+	"Johann #1" = 17
+	"Simon #4" = 10
+	"Jakob #0" = 7
+	"Friedrich #1" = 5
+	"Dietrich #0" = 5
+	"Heinrich #0" = 3
+	"Stephan #0" = 3
+	
+	"Agnes #0" = -1
+	"Johanna #0" = -1
+	"Mathilde #1" = -1
+	"Laurette #1" = -1
+	"Elisabeth #0" = -1
+	"Gisela #0" = -1
+}
+
+leader_names = {
+	"zu Wadgassen" "von Dillingen" "zu Ensdorf" "zu Schwalbach"
+	"zu Bous" "zu Nalbach" "von Blieskastel" "von Fistingen"
+	"zu Rubenheim" "zu Böckweiler" "von Loewenstein" "zu Mörsberg"
+	"von Dirmstein" "von Zweibrücken"
+}
+
+ship_names = {
+	"St. Martin" "St. Elisabeth" "St. Wendelin" Nalbach "St. Ingbert" "St. Stephanus"
+	Saarbrücken Blieskastel "Graf Sigebert" "Graf Friedrich" Zweibrücken
+}
+
+army_names = {
+	"Armee von $PROVINCE$" 
+}

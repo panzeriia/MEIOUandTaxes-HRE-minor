@@ -8327,3 +8327,9 @@ legitimate_subject_elector_modifer = {
 estate_war_support = {}
 
 meteor_cooldown = {}
+
+dohna_feud = {
+	local_unrest = -1
+	local_autonomy = -0.05
+	inflation_reduction = 0.03
+}

@@ -1,0 +1,28 @@
+namespace=flavor_MEI
+country_event = {#Dohnaische Fehde
+	id = flavor_MEI.4
+	title = flavor_MEI.4.t
+	desc = flavor_MEI.4.d
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = MEI
+		government = monarchy
+		dynasty = "von Wettin"
+		is_year = 1385
+		NOT = { is_year = 1402 }
+		owns = 3851
+	}
+	mean_time_to_happen = {
+		years = 7
+	}
+	option = {
+		name = flavor_MEI.4.a
+		3852 = {
+			add_province_modifier = {
+				name = "dohna_feud"
+				duration = 3650
+			}
+		}
+	}
+}
