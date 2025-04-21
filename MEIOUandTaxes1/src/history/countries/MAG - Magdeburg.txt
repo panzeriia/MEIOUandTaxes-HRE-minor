@@ -1,4 +1,4 @@
-# MAG - Bishopric of Magdebug
+# MAG - Bishopric of Magdeburg
 
 government = theocracy
 
@@ -22,32 +22,23 @@ capital = 1350	# Magdeburg
 	add_absolutism = 10
 	set_country_flag = d_of_sax
 }
-
 1327.3.2 = {
 	monarch = {
-		name = "Otto"
+		name = "Otto I"
 		dynasty = "von Hessen"
 		birth_date = 1301.1.1
 		death_date = 1361.4.30
 		ADM = 3
 		DIP = 4
 		MIL = 1
+		culture = hessian
+		religion = catholic
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = calm_personality
+	add_ruler_personality = craven_personality
 }
-1356.12.30 = {
-	heir = {
-		name = "Otto"
-		dynasty = "von Hessen"
-		ADM = 2
-		DIP = 3
-		MIL = 1
-		culture = hessian
-		religion = catholic
-		birth_date = 1341.1.1
-	}
-}
+
 #1361.12.1 = {
 #	monarch = {
 #		name = "Dietrich Kagelwit"

@@ -41,78 +41,44 @@ historical_units = { #North German group
 
 #For use only when Munster is ruled by a bishop
 monarch_names = {
-	"Johann #2" = 40
-	"Erich #0" = 40
-	"Ferdinand #0" = 40
-	"Heinrich #0" = 40
-	"Otto #3" = 20
-	"Friedrich #2" = 20
-	"Konrad #1" = 20
-	"Wilhelm #1" = 20
-	"Bernhard #0" = 20
-	"Bernhard Christoph #0" = 20
-	"Ernst #0" = 20
-	"Franz #0" = 20
-	"Franz Arnold #0" = 20
-	"Friedrich Christian #0" = 20
-	"Johann Wilhelm #0" = 20
-	"Ludwig #2" = 15
-	"Ludwig #1" = 10
-	"Adolf #1" = 10
-	"Alexander #0" = 1
-	"Andreas #0" = 1
-	"Baldur #0" = 1
-	"Bruno #0" = 1
-	"Clemens #0" = 1
-	"Dedrick #0" = 1
-	"Denis #0" = 1
-	"Florian #0" = 1
-	"Gregor #0" = 1
-	"Guntram #0" = 1
-	"Helmfried #0" = 1
-	"Helmut #0" = 1
-	"Isaak #0" = 1
-	"Jan #0" = 1
-	"Joachim #0" = 1
-	"Martin #0" = 1
-	"Michael #0" = 1
-	"Rainer #0" = 1
-	"Rudolf #0" = 1
-	"Siegmund #0" = 1
+	"Gerhard #1" = 12
+	"Otto #1" = 12
+	"Wittekind #1" = 8
+	"Heinrich #2" = 6
+	"Marquardt #0" = 6
+	"Franz #0" = 5
+	"Georg #0" = 5
+	"Ludolf #1" = 5
+	"Wilhelm #1" = 7
+	"Konrad #2" = 5
+	"Gottfried #1" = 4
+	"Ludwig #1" = 4
+	"Hermann #0" = 6
+	"Albrecht #0" = 5
 	
-	"Aleida #0" = -1
-	"Cordula #0" = -1
-	"Gundula #0" = -1
-	"Selma #0" = -1
-	"Ulrike #0" = -1
-	"Barbara #0" = -1
-	"Alexandra #0" = -1
-	"Christiane #0" = -1
-	"Emma #0" = -1
-	"Corinna #0" = -1
-	"Else #0" = -1
-	"Hedwig #0" = -1
-	"Sylvia #0" = -1
-	"Wilhelmine #0" = -1
-	"Alexis #0" = -1
-	"Evelyn #0" = -1
-	"Hannelore #0" = -1
-	"Irma #0" = -1
-	"Heinrike #0" = -1
-	"Ilona #0" = -1
-	"Andrea #0" = -1
+	"Helene #0" = -1
+	"Mechthild #0" = -1
+	"Adelheid #0" = -1
+	"Oda #0" = -1
+	"Heilwig #0" = -1
+	"Gertrud #0" = -1
+	"Ethelind #0" = -1
+	"Jutta #0" = -1
+	"Irmengard #0" = -1
+	"Walburga #0" = -1
 }
 
 leader_names = {
-	Enste Dönhoff "von Cossel" "de Turckheim"
-	"de Dornach" "de Kircheim" Kempf Wachsmuth
-	Helff Krefting Köhne Engels Boelken Meyer
+	"von Schauenburg" "von Rostorf" "von Schalksberg" "von Schwalenberg" "von Randeck"
+	"von Rietberg" "von Büschen" "von Diepholz" "zu Ahlden" "zu Mandelsloh" "zu Lohe"
+	"zu Apelern" "zu Kirchohsen" "zu Sulingen" "zu Wunstorf" "zu Pattensen" "zu Lübbecke"
+	"von der Beck" "von Callendorf" "von Heimburg" "von Minden"
 }
 
 ship_names = {
-	Liudger "St. Lamberti" Liebfrauenkirche
-	"Graf von Hoya" Greven Hiltrup Mauritz
-	Wolbeck Roxel Senden
+	"St. Gorgonius" "St. Petrus" Sulingen Apelern Minden Lübbecke Wunstorf "St. Marien" "St. Laurentius"
+	"St. Alexander" "St. Johannis" "St. Mauritius" "St. Simeonis" "St. Martin" "St. Markus" "St. Matthäus"
+	"St. Jakobus" "St. Lukas" "St. Thomas" "St. Andreas" "St. Bartholomaeus" "St. Cosmas" "St. Johannes der Täufer"
 }
 
 army_names = {

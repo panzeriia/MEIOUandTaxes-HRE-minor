@@ -25,12 +25,17 @@ capital = 3724
 
 1353.1.1 = {
 	monarch = {
-		name = "Dietrich III Kagelwit"
+		name = "Dietrich III"
+		monarch_name = "Dietrich III Kagelwit"
+		dynasty = "von Portitz"
 		birth_date = 1300.1.1
+		death_date = 1367.12.17
 		ADM = 3
-		DIP = 3
+		DIP = 4
 		MIL = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = midas_touched_personality
 }
 
 #1361.1.1 = {
