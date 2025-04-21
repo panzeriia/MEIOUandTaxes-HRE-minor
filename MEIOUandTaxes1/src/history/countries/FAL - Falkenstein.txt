@@ -37,7 +37,7 @@ capital = 3732
 }
 1353.6.1 = {
 	queen = {
-		name = "Agnes von Falkenstein-Münzenberg"
+		name = "Agnes von Münzenberg"
 		ADM = 2
 		DIP = 2
 		MIL = 0
@@ -94,5 +94,5 @@ capital = 3732
 #	add_government_reform = Pol_Succession1
 #	add_government_reform = Pol_Assembly1
 #	add_government_reform = Pol_Nobility1
-add_government_reform = Pol_Centralisation2
+#	add_government_reform = Pol_Centralisation2
 #}
