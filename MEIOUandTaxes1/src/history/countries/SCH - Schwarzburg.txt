@@ -25,9 +25,56 @@ capital = 3737
 	monarch = {
 		name = "Heinrich VII"
 		dynasty = "von Schwarzburg"
+		birth_date = 1260.1.1
+		death_date = 1324.11.11
 		ADM = 2
 		DIP = 2
 		MIL = 2
+	}
+}
+1324.11.11 = {
+	monarch = {
+		name = "Heinrich X"
+		dynasty = "von Schwarzburg"
+		birth_date = 1285.1.1
+		death_date = 1338.3.4
+		ADM = 3
+		DIP = 2
+		MIL = 3
+	}
+}
+1338.3.4 = {
+	monarch = {
+		name = "Heinrich XII"
+		dynasty = "von Schwarzburg"
+		birth_date = 1315.1.1
+		death_date = 1372.1.1
+		ADM = 3
+		DIP = 2
+		MIL = 3
+	}
+	queen = {
+		name = "Agnes"
+		dynasty = "von Hohnstein"
+		country_of_origin = MEI
+		female = yes
+		birth_date = 1318.1.1
+		death_date = 1384.1.1
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+}
+1342.1.1 = {
+	heir = {
+		name = "Günther"
+		monarch_name = "Günther XXVIII"
+		dynasty = "von Schwarzburg"
+		birth_date = 1342.1.1
+		death_date = 1418.1.1
+		ADM = 3
+		DIP = 2
+		MIL = 3
 	}
 }
 
@@ -61,7 +108,7 @@ capital = 3737
 #	add_government_reform = Pol_Succession1
 #	add_government_reform = Pol_Assembly1
 #	add_government_reform = Pol_Nobility1
-add_government_reform = Pol_Centralisation2
+#	add_government_reform = Pol_Centralisation2
 #}
 
 #1540.1.1 = {

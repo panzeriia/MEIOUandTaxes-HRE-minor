@@ -1,4 +1,4 @@
-# WRL - Werle
+# WRL - Werle-Goldberg branch
 
 government = monarchy
 add_government_reform = Pol_Succession1 #feel free to revise
@@ -20,12 +20,13 @@ capital = 57
 	add_absolutism = 10
 	set_country_flag = d_of_pom
 }
-
-1354.11.14 = {
+1354.11.13 = {
 	monarch = {
-		name = "Nikolaus III"				# of Werle-Güstrow, custodian for his nephew Johann
+		name = "Nikolaus III"			# of Werle-Güstrow, custodian for his nephew Johann
 		dynasty = "von Mecklenburg"
 		birth_date = 1322.1.1
+		death_date = 1361.8.1
+		regent = yes
 		ADM = 3
 		DIP = 3
 		MIL = 3
@@ -35,11 +36,11 @@ capital = 57
 		monarch_name = "Johann IV"
 		dynasty = "von Mecklenburg"
 		birth_date = 1349.1.1
-		death_date = 1374.12.14
+		death_date = 1374.12.11
 		claim = 95
 		ADM = 3
-		DIP = 3
-		MIL = 3
+		DIP = 1
+		MIL = 0
 	}
 }
 

@@ -27,23 +27,51 @@ capital = 1253
 	monarch = {
 		name = "Wilhelm I"
 		dynasty = "von Jülich"
-		ADM = 3
-		DIP = 3
-		MIL = 3
-		birth_Date = 1299.1.1
+		birth_date = 1299.1.1
+		death_date = 1361.2.26
+		ADM = 2
+		DIP = 5
+		MIL = 5
 	}
-	heir = {								# oldest son of Wilhelm, date of birth had to be estimated
-		name = "Gerhard"
-		monarch_name = "Gerhard I"
+	queen = {
+		name = "Jeanne"
+		dynasty = "de Avesnes"
+		female = yes
+		birth_date = 1309.1.1
+		death_date = 1374.1.1
+		culture = wallonian
+		ADM = 2
+		DIP = 2
+		MIL = 1
+		country_of_origin = HAI
+	}
+	heir = {
+		name = "Wilhelm"					# younger son of Wilhelm
+		monarch_name = "Wilhelm II"
 		dynasty = "von Jülich"
-		birth_Date = 1320.1.1
-		death_date = 1360.5.18
+		birth_Date = 1325.1.1
+		death_date = 1393.12.13
 		claim = 95
-		ADM = 3
+		ADM = 2
 		DIP = 3
-		MIL = 3
+		MIL = 5
 	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_heir_personality = bold_fighter_personality
+	add_queen_personality = kind_hearted_personality
 }
+#	heir = {								# oldest son of Wilhelm, date of birth had to be estimated
+#		name = "Gerhard"
+#		monarch_name = "Gerhard I"
+#		dynasty = "von Jülich"
+#		birth_Date = 1320.1.1
+#		death_date = 1360.5.18
+#		claim = 95
+#		ADM = 3
+#		DIP = 3
+#		MIL = 3
+#	}
 
 
 #1360.5.19 = {
