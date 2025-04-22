@@ -43,9 +43,9 @@ monarch = {
 		dynasty = "de Montbéliard"
 		birth_date = 1344.11.8
 		death_date = 1411.4.12
-		ADM = 3
-		DIP = 2
-		MIL = 4
+		ADM = 1
+		DIP = 4
+		MIL = 1
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = entrepreneur_personality

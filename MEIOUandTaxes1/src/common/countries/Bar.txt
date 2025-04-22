@@ -38,57 +38,40 @@ historical_units = { #French group
 
 
 monarch_names = {
-	"Robert #1" = 55
-	"Edward #2" = 50
-	"René #0" = 35
-	"Louis #0" = 30
-	"Henri #4" = 20
-	"Frederick #3" = 10
-	"Thierry #1" = 10
-	"Sophie #1" = -10
-	"Theodoric #2" = 10
-	"Reginald #2" = 10
-	"Theobald #2" = 10
-	"Nicholas #0" = 10
-	"François #0" = 10
-	"Philippe #0" = 10
-	"Charles #0" = 10
-	"Jean #0" = 10
-	"Antoine #0" = 10
-	"Nicolas #0" = 10
-	"Isabelle #0" = -10
-	"Léopold #0" = 10
+	"Robert #1" = 10
+	"Édouard #2" = 12
+	"René #0" = 11
+	"Louis #0" = 10
+	"Antoine #0" = 8
+	"François #0" = 8
+	"Charles #2" = 9
+	"Henri #4" = 10
+	"Léopold #0" = 6
+	"Philippe #0" = 5
+	"Jean #0" = 3
+	"Nicolas #0" = 3
 	"Claude #0" = 5
-	"Ferdinand Philippe #0" = 5
-	"Léopold #0 Clément" = 5
-	"Rodolphe #0" = 5
-	"Charles #1 Ferdinand" = 5
-	"Charles #1 Henri" = 5
-	"François #1 Antoine" = 5
-	"Joseph #0" = 5
-	"Alfred #0" = 5
-	"Bernard #0" = 5
-	"David #0" = 5
-	"Gérard #0" = 10
-	"Jacques #0" = 10
-	"Gaston #0" = 10
 	
-	"Blanche #0" = -1
-	"Aliénor #0" = -1
-	"Berthe #0" = -1
-	"Constance #0" = -1
-	"Mathilde #0" = -1
-	"Isabeau #0" = -1
-	"Jeanne #0" = -1
+	"Yolande #0" = -1
 	"Marie #0" = -1
-	"Charlotte #0" = -1
-	"Anne #0" = -1
+	"Bonne #0" = -1
+	"Jeanne #0" = -1
+	"Aliénor #0" = -1
 	"Marguerite #0" = -1
-	"Adélaïde #0" = -1
+	"Anne #0" = -1
+	"Madeleine #0" = -1
+	"Françoise #0" = -1
+	"Louise #0" = -1
+	"Blanche #0" = -1
+	"Isabelle #0" = -1
+	"Catherine #0" = -1
+	"Élisabeth #0" = -1
+	"Dorothée #0" = -1
+	"Antoinette #0" = -1
 }
 
 leader_names = {
-	"d'Angry d'Autel" "d'Avillers" "d'Anglure" "d'Aguerre"
+	"d'Angry" "d'Autel" "d'Avillers" "d'Anglure" "d'Aguerre"
 	"d'Haraucourt" "d'Haussonville" "d'Ornes"
 	"de Bar" "de Bouconville" "de Brixey" "de Bressey" "de Briey" "de Bazoilles"
 	"de Condé" "de Conflans"
@@ -110,8 +93,8 @@ leader_names = {
 }
 
 ship_names = {
-	"Emperor Lothar" "Lotharingen"
-	"Rene II Lothringen" Barrois Metz
-	Toul Verdun Warding Skirmjan
-	Bera Scoc Sekjan
+	"Bar-le-Duc" "Pont-à-Mousson" Longwy Moselle Lamarche
+	"Vienne-le-Château" Barrois Metz "Saint-Mihiel" Sampigny
+	Saulxures Vaubecourt Souilly Jarny Toul Verdun Warding Mont-St-Martin
+	Bera Audun-le-Tiche Sekjan
 }
