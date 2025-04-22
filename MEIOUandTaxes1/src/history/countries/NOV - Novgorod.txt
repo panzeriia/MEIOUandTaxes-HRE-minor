@@ -34,12 +34,13 @@ historical_friend = TVE
 	add_absolutism = 10
 }
 
-1350.1.1 = {
+1355.1.1 = {#Start of Boyar republic, initially 6 rulers from different clans, slowly expanding to 36
 	monarch = {
-		name = "Ontsifor Lukinich"
-		ADM = 5
-		DIP = 2
-		MIL = 6
+		name = "Adrian Zakharinich"
+		ADM = 4
+		DIP = 3
+		MIL = 2
+		age = 35
 	}
 }
 
