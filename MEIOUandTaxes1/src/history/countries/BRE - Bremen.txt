@@ -25,14 +25,27 @@ historical_friend = DIT
 }
 1348.1.1 = {
 	monarch = {
-		name = "Gottfried von Arnsberg"
+		name = "Gottfried"
+		dynasty = "von Arnsberg"
 		birth_date = 1285.1.1
+		death_date = 1363.1.1
 		ADM = 2
 		DIP = 4
 		MIL = 2
 	}
 }
-
+1350.9.12 = {
+	leader = {
+		name = "Moritz von Oldenburg"
+		birth_date = 1308.1.1
+		death_date = 1368.8.20
+		type = general
+		fire = 1
+		shock = 1
+		manuever = 2
+		siege = 0
+	}
+}
 #1359.1.1 = {
 #	monarch = {
 #		name = "Albrecht von Welf"
